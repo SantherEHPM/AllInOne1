@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">AllInOne1</string>
+    <string name="ibReturn">Return</string>
+    <!--Main-->
+    <string name="btOne">First app</string>
+    <string name="btTwo">Second app</string>
+    <string name="btThree">Third app</string>
+    <string name="btFour">Fourth app</string>
+    <!--Point One-->
+    <string name="tvTittle">Edge Calculator</string>
+    <string name="tvBirthdate">Birthdate</string>
+    <string name="etBirthdate">dd/mm/yyyy</string>
+    <string name="btCalculate">Calculate</string>
+    <string name="tvResult"></string>
+    <!--Point Two-->
+    <string name="tvTittle21">Sign Up</string>
+    <string name="tvName21">First name</string>
+    <string name="etName21">Enter your first name</string>
+    <string name="tvLastName21">Last name</string>
+    <string name="etLastName21">Enter your last name</string>
+    <string name="tvAddress21">Address</string>
+    <string name="etAddress21">Enter your address</string>
+    <string name="btEnter21">Enter</string>
+
+    <string name="tvTittle22">Products</string>
+    <string name="btAdd22">Add</string>
+    <string name="tvProduct1">Abedul wood</string>
+    <string name="tvPrise1">$1.000</string>
+    <string name="tvProduct2">Pine wood</string>
+    <string name="tvPrise2">$1.200</string>
+    <string name="tvProduct3">Acacia wood</string>
+    <string name="tvPrise3">$1.800</string>
+    <string name="tvProduct4">Roble wood</string>
+    <string name="tvPrise4">$2.700</string>
+    <string name="tvProduct5">Eucalipto wood</string>
+    <string name="tvPrise5">$900</string>
+    <string name="tvProduct6">Aglomerado</string>
+    <string name="tvPrise6">$1.200</string>
+    <string name="tvSelectedTittle">Selected Products</string>
+    <string name="tvSelected"></string>
+    <string name="btBuy">Buy</string>
+
+    <string name="tvTittle23">Madereria Julio</string>
+    <string name="tvDate23"></string>
+    <string name="tvTitular"></string>
+    <string name="tvAddress"></string>
+    <string name="tvHdrProduct23">Product</string>
+    <string name="tvHdrCount23">Count</string>
+    <string name="tvHdrPrice23">Price by unit</string>
+    <string name="tvHdrTotal23">Total</string>
+    <string name="tvProducts23"></string>
+    <string name="tvCounts23"></string>
+    <string name="tvPrices23"></string>
+    <string name="tvTotals23"></string>
+    <string name="tvTotal23"></string>
+    <string name="btOK23">OK</string>
+
+    <!--Third point-->
+    <string name="tvTitle3">Cuestionario de cultura general</string>
+    <string name="tvQuestion31">¿Cuál fruta aporta más vitamina C?</string>
+    <string name="rbAnswer31a">Naranja</string>
+    <string name="rbAnswer31b">Guayaba</string>
+    <string name="tvQuestion32">¿Dónde se origino el futbol?</string>
+    <string name="rbAnswer32a">Inglaterra</string>
+    <string name="rbAnswer32b">Brazil</string>
+    <string name="tvQuestion33">¿Comó se llama la primera producción de Walt Disney?</string>
+    <string name="rbAnswer33a">Blanca nieves</string>
+    <string name="rbAnswer33b">Steamboat Willy</string>
+    <string name="tvQuestion34">¿Cuál es el primer alienigena que aparece en la caricatura Ben10?</string>
+    <string name="rbAnswer34a">Fuego</string>
+    <string name="rbAnswer34b">Insectoide</string>
+    <string name="tvQuestion35">¿Cuándo se sucedio el holocausto nazi?</string>
+    <string name="rbAnswer35a">1933-1945</string>
+    <string name="rbAnswer35b">1920-1938</string>
+    <string name="tvQuestion36">¿Cuál es la carga que poseen los electrones?</string>
+    <string name="rbAnswer36a">Negativa</string>
+    <string name="rbAnswer36b">Positiva</string>
+    <string name="btSend3">Enviar</string>
+
+    <!--Fourth point-->
+    <string name="tvTittle4">IMC Calculator</string>
+    <string name="etWeight4">Enter your weight(kg)</string>
+    <string name="etHeight4">Enter your height(m)</string>
+    <string name="tvMetric4">Metric</string>
+    <string name="tvEnglish4">English</string>
+    <string name="btCalculate4">Calculate</string>
+    <string name="tvResult4"></string>
+</resources>

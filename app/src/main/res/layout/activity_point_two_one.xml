@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pointTwoOne">
+
+    <ImageButton
+        android:id="@+id/ibReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ibReturn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTittle21"
+            android:textSize="30dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvName21"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:inputType="text"
+            android:hint="@string/etName21"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+        <TextView
+            android:id="@+id/tvLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvLastName21"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:ems="10"
+            android:hint="@string/etLastName21"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvAddress21"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="373dp" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/etAddress21"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="397dp" />
+
+        <Button
+            android:id="@+id/btEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/orange3"
+            android:text="@string/btEnter21" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

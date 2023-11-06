@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="180dp"
+    android:paddingHorizontal="30dp"
+    tools:context=".pointTwoThree"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTittle23"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvTitular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTitular" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAddress" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="@string/tvDate23" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvHdrProduct"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvHdrProduct23"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvHdrCount"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvHdrCount23" />
+
+        <TextView
+            android:id="@+id/tvHdrPrice"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvHdrPrice23"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvHdrTotal"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvHdrTotal23"
+            android:textAlignment="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <TextView
+            android:id="@+id/tvProducts"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvProducts23" />
+
+        <TextView
+            android:id="@+id/tvCounts"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCounts23"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvPrices"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPrices23"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvTotals"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTotals23"
+            android:textAlignment="center"/>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTotals23" />
+
+    <Button
+        android:id="@+id/btOK"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/btOK23"
+        android:backgroundTint="@color/orange3"/>
+</LinearLayout>

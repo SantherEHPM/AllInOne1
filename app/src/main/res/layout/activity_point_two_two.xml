@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pointTwoTwo">
+
+    <ImageButton
+        android:id="@+id/ibReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:contentDescription="@string/ibReturn"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTittle22"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="76dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/green1"
+                android:backgroundTintMode="multiply"
+                android:orientation="horizontal"
+                android:padding="30px">
+
+                <ImageView
+                    android:id="@+id/ivProduct1"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/abedul" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProduct1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvProduct1"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tvPrise1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvPrise1"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/btProduct1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/orange3"
+                        android:text="@string/btAdd22" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/green1"
+                android:backgroundTintMode="multiply"
+                android:orientation="horizontal"
+                android:padding="30px">
+
+                <ImageView
+                    android:id="@+id/ivProduct2"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pino" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProduct2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvProduct2"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tvPrise2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvPrise2"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/btProduct2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/orange3"
+                        android:text="@string/btAdd22" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/green1"
+                android:backgroundTintMode="multiply"
+                android:orientation="horizontal"
+                android:padding="30px">
+
+                <ImageView
+                    android:id="@+id/ivProduct3"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/acacioa" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProduct3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvProduct3"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tvPrise3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvPrise3"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/btProduct3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/orange3"
+                        android:text="@string/btAdd22" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/green1"
+                android:backgroundTintMode="multiply"
+                android:orientation="horizontal"
+                android:padding="30px">
+
+                <ImageView
+                    android:id="@+id/ivProduct4"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/roble" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProduct4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvProduct4"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tvPrise4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvPrise4"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/btProduct4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/orange3"
+                        android:text="@string/btAdd22" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/green1"
+                android:backgroundTintMode="multiply"
+                android:orientation="horizontal"
+                android:padding="30px">
+
+                <ImageView
+                    android:id="@+id/ivProduct5"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/aucalipto" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProduct5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvProduct5"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tvPrise5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvPrise5"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/btProduct5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/orange3"
+                        android:text="@string/btAdd22" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/green1"
+                android:backgroundTintMode="multiply"
+                android:orientation="horizontal"
+                android:padding="30px">
+
+                <ImageView
+                    android:id="@+id/ivProduct6"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/aglomerado" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProduct6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvProduct6"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tvPrise6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tvPrise6"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/btProduct6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/orange3"
+                        android:text="@string/btAdd22" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tvSelectedProductsTittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/tvSelectedTittle" />
+
+        <TextView
+            android:id="@+id/tvSelectedProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSelected" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btBuy"
+        android:backgroundTint="@color/green2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
